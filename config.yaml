@@ -1,0 +1,20 @@
+Basic:
+  DEBUG_FLAG: True
+  FRAME_WIDTH: 320
+  FRAME_HEIGHT: 240
+  MIN_MATCH_COUNT: 12
+
+Handsfree:
+  max_l_speed: 0.5
+  max_w_speed: 0.8
+  phi_value: 3.14159265357
+  Work_flag: True
+
+  default_scale: 1
+  center_threshold: 0.2
+  scale_threshold: 0.1
+  k_val: [0.4, 0.3, 0.2, 0.15]
+
+Video:
+  original: './data/panda.jpg'
+  cap: 2
